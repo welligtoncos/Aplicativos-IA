@@ -96,3 +96,15 @@ git remote add origin https://github.com/welligtoncos/Aplicativos-IA.git
 git branch -M main
 git push -u origin main
 >>>>>>> b119eed (Initial commit)
+
+
+git ls-remote origin
+sudo apt update
+sudo apt install gh
+gh auth login
+gh repo list seu-usuario
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+home/cloud/.pyenv/versions/3.10.4/bin/python /mnt/c/welligton-pos-IA/redeneural-matematica/redeneuralensinar/management/commands/respon
+der_api.py
